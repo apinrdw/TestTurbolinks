@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-@import WebKit;
-@import Turbolinks;
+#import <WebKit/WebKit.h>
+#import "Turbolinks-Swift.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <WKScriptMessageHandler>
+@property NSURL                     *URL;
+@property WKProcessPool             *webViewProcessPool;
+@property WKUserContentController   *userContentController;
+@property WKWebViewConfiguration    *webViewConfiguration;
+@property Session                   *session;
 @end
-
