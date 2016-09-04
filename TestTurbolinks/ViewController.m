@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DemoViewController.h"
 
 @interface ViewController ()
 
@@ -41,7 +42,22 @@
 }
 
 - (void)presentVisitableForSession:(Session *)session URL:(NSURL *)URL {
+    NSLog(@"Presenting visitable ...");
     // TODO: Open DemoViewController
+    
+    DemoViewController *visitable = [[DemoViewController alloc] init];
+    
+    /*
+    if action == .Advance {
+        pushViewController(visitable, animated: true)
+    } else if action == .Replace {
+        popViewControllerAnimated(false)
+        pushViewController(visitable, animated: false)
+    }
+     */
+    
+    [self.navigationController pushViewController:visitable animated:true];
+    //[self.session visit: visitable];
 }
 
 - (void)didReceiveMemoryWarning {
