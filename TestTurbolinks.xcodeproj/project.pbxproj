@@ -16,6 +16,7 @@
 		D57CA4D91D7929C200AF1A5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D57CA4D71D7929C200AF1A5F /* LaunchScreen.storyboard */; };
 		D57CA4E41D7929C200AF1A5F /* TestTurbolinksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57CA4E31D7929C200AF1A5F /* TestTurbolinksTests.m */; };
 		D57CA4EF1D7929C200AF1A5F /* TestTurbolinksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D57CA4EE1D7929C200AF1A5F /* TestTurbolinksUITests.m */; };
+		D584926F1D7D088300475880 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D584926E1D7D088300475880 /* DemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		D57CA4EA1D7929C200AF1A5F /* TestTurbolinksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTurbolinksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57CA4EE1D7929C200AF1A5F /* TestTurbolinksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTurbolinksUITests.m; sourceTree = "<group>"; };
 		D57CA4F01D7929C200AF1A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D584926D1D7D088300475880 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		D584926E1D7D088300475880 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		EF8D8759CF0B1DA98BE08603 /* Pods-TestTurbolinks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTurbolinks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTurbolinks/Pods-TestTurbolinks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +128,8 @@
 		D57CA4C81D7929C200AF1A5F /* TestTurbolinks */ = {
 			isa = PBXGroup;
 			children = (
+				D584926D1D7D088300475880 /* DemoViewController.h */,
+				D584926E1D7D088300475880 /* DemoViewController.m */,
 				D57CA4CC1D7929C200AF1A5F /* AppDelegate.h */,
 				D57CA4CD1D7929C200AF1A5F /* AppDelegate.m */,
 				D57CA4CF1D7929C200AF1A5F /* ViewController.h */,
@@ -351,6 +356,7 @@
 				D57CA4D11D7929C200AF1A5F /* ViewController.m in Sources */,
 				D57CA4CE1D7929C200AF1A5F /* AppDelegate.m in Sources */,
 				D57CA4CB1D7929C200AF1A5F /* main.m in Sources */,
+				D584926F1D7D088300475880 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
