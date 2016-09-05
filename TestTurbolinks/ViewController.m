@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  TestTurbolinks
+//  asdasd
 //
-//  Created by Apin Ridwan on 9/2/16.
+//  Created by Apin Ridwan on 9/5/16.
 //  Copyright © 2016 Apin Ridwan. All rights reserved.
 //
 
@@ -48,12 +48,12 @@
     DemoViewController *visitable = [[DemoViewController alloc] init];
     
     /*
-    if action == .Advance {
-        pushViewController(visitable, animated: true)
-    } else if action == .Replace {
-        popViewControllerAnimated(false)
-        pushViewController(visitable, animated: false)
-    }
+     if action == .Advance {
+     pushViewController(visitable, animated: true)
+     } else if action == .Replace {
+     popViewControllerAnimated(false)
+     pushViewController(visitable, animated: false)
+     }
      */
     
     [self.navigationController pushViewController:visitable animated:true];
