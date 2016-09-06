@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1B577CE8FF015034D06C3A8C8925CB21722E479",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E1B577CE8FF015034D06C3A8C8925CB21722E479" : 0,
+    "878B51FE4B78862E01FD4AE27E72236BBF786139" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C635F0DC-25DC-43F5-836F-4DE9051921B3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E1B577CE8FF015034D06C3A8C8925CB21722E479" : "TestTurbolinks\/",
+    "878B51FE4B78862E01FD4AE27E72236BBF786139" : "turbolinks-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestTurbolinks",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestTurbolinks.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/turbolinks\/turbolinks-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "878B51FE4B78862E01FD4AE27E72236BBF786139"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:apinrdw\/TestTurbolinks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1B577CE8FF015034D06C3A8C8925CB21722E479"
+    }
+  ]
+}

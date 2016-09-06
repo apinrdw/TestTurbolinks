@@ -57,6 +57,7 @@
 		D58492FA1D7D376000475880 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D58492FC1D7D37FF00475880 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
 		D58492FE1D7D380A00475880 /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		D58493011D7D4A6000475880 /* TestTurbolinks-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTurbolinks-Bridging-Header.h"; sourceTree = "<group>"; };
 		EF8D8759CF0B1DA98BE08603 /* Pods-TestTurbolinks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTurbolinks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTurbolinks/Pods-TestTurbolinks.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +113,7 @@
 				D57CA4C71D7929C200AF1A5F /* Products */,
 				B5F1AB7706271846A56510B2 /* Pods */,
 				2EB6BE68E4E3CB4CBA3CFAB5 /* Frameworks */,
+				D58493011D7D4A6000475880 /* TestTurbolinks-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -490,10 +492,13 @@
 			baseConfigurationReference = EF8D8759CF0B1DA98BE08603 /* Pods-TestTurbolinks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestTurbolinks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apinrdw.TestTurbolinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTurbolinks-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -502,10 +507,12 @@
 			baseConfigurationReference = 64822835067C663BBB3940FF /* Pods-TestTurbolinks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestTurbolinks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.apinrdw.TestTurbolinks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTurbolinks-Bridging-Header.h";
 			};
 			name = Release;
 		};

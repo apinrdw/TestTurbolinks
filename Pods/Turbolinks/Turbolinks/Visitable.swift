@@ -8,7 +8,7 @@ public protocol VisitableDelegate: class {
     func visitableDidRequestRefresh(visitable: Visitable)
 }
 
-public protocol Visitable: class {
+@objc public protocol Visitable: class {
     weak var visitableDelegate: VisitableDelegate? { get set } 
     var visitableView: VisitableView! { get }
     var visitableURL: NSURL! { get }

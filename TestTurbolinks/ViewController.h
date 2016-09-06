@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
-#import "Turbolinks-Swift.h"
+#import "Turbolinks/Turbolinks-Swift.h"
 
 @interface ViewController : UIViewController <WKScriptMessageHandler>
 

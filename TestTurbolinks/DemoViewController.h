@@ -10,7 +10,7 @@
 #define DemoViewController_h
 
 #import <UIKit/UIKit.h>
-#import "Turbolinks-Swift.h"
+#import <Turbolinks/Turbolinks-Swift.h>
 
 @interface DemoViewController : UIViewController
 @end
