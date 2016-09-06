@@ -13,6 +13,13 @@
 #import <Turbolinks/Turbolinks-Swift.h>
 
 @interface DemoViewController : UIViewController
+
+@property (nonatomic, weak) id <VisitableDelegate> visitableDelegate;
+@property NSURL *visitableURL;
+@property VisitableView *visitableView;
+
+- (id)initWithURL:(NSURL *)URL;
+
 @end
 
 #endif /* DemoViewController_h */
