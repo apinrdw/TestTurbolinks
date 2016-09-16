@@ -3,5 +3,5 @@ platform :ios, '9.0'
 
 use_frameworks!
 target "TestTurbolinks" do
-  pod 'Turbolinks', path: '~/Projects/iOS/turbolinks-ios/'
+  pod 'Turbolinks', git: 'https://github.com/apinrdw/turbolinks-ios', branch: 'using-objc'
 end

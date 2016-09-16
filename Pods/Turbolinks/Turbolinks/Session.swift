@@ -1,7 +1,7 @@
 import UIKit
 import WebKit
 
-public protocol SessionDelegate: class {
+@objc public protocol SessionDelegate: class {
     func session(session: Session, didProposeVisitToURL URL: NSURL, withAction action: Action)
     func session(session: Session, didFailRequestForVisitable visitable: Visitable, withError error: NSError)
     func session(session: Session, openExternalURL URL: NSURL)

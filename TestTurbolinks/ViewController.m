@@ -26,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.URL = [NSURL URLWithString:@"https://id.crowdvoice.com"];
+    self.URL = [NSURL URLWithString:@"http://id.crowdvoice.me:3000/test_submit"];
     self.webViewProcessPool = [[WKProcessPool alloc] init];
     
     self.userContentController = [[WKUserContentController alloc] init];

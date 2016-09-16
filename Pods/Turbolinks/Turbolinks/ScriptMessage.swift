@@ -41,7 +41,19 @@ class ScriptMessage {
 
     var action: Action? {
         if let actionString = data["action"] as? String {
-            return Action(rawValue: actionString)
+            let actionInt: Int
+            switch actionString {
+            case "advance":
+                actionInt = 1
+            case "replace":
+                actionInt = 2
+            case "restore":
+                actionInt = 3
+            default:
+                actionInt = 1
+            }
+            
+            return Action(rawValue: actionInt)
         }
         
         return nil

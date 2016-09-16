@@ -1,12 +1,12 @@
 import WebKit
 
-protocol WebViewDelegate: class {
+@objc protocol WebViewDelegate: class {
     func webView(webView: WebView, didProposeVisitToLocation location: NSURL, withAction action: Action)
     func webViewDidInvalidatePage(webView: WebView)
     func webView(webView: WebView, didFailJavaScriptEvaluationWithError error: NSError)
 }
 
-protocol WebViewPageLoadDelegate: class {
+@objc protocol WebViewPageLoadDelegate: class {
     func webView(webView: WebView, didLoadPageWithRestorationIdentifier restorationIdentifier: String)
 }
 

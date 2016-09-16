@@ -2,15 +2,21 @@ PODS:
   - Turbolinks (1.0.2)
 
 DEPENDENCIES:
-  - Turbolinks (from `~/Projects/iOS/turbolinks-ios/`)
+  - Turbolinks (from `https://github.com/apinrdw/turbolinks-ios`, branch `using-objc`)
 
 EXTERNAL SOURCES:
   Turbolinks:
-    :path: "~/Projects/iOS/turbolinks-ios/"
+    :branch: using-objc
+    :git: https://github.com/apinrdw/turbolinks-ios
+
+CHECKOUT OPTIONS:
+  Turbolinks:
+    :commit: a534bf815a1a6572dfc7a4be84789da53fd97c9f
+    :git: https://github.com/apinrdw/turbolinks-ios
 
 SPEC CHECKSUMS:
   Turbolinks: d8209bab43803adae8c06d434368e16479023407
 
-PODFILE CHECKSUM: 893dada52127bf857c4689e2f11ed329ca9f0cc1
+PODFILE CHECKSUM: 955275d791a8edf716b40ace357c0bbc5ec85e7d
 
 COCOAPODS: 1.0.0

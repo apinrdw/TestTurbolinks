@@ -1,7 +1,7 @@
 import UIKit
 import WebKit
 
-public protocol VisitableDelegate: class {
+@objc public protocol VisitableDelegate: class {
     func visitableViewWillAppear(visitable: Visitable)
     func visitableViewDidAppear(visitable: Visitable)
     func visitableDidRequestReload(visitable: Visitable)
@@ -37,7 +37,7 @@ extension Visitable {
     }
 
     func showVisitableActivityIndicator() {
-        visitableView.showActivityIndicator()
+        visitableView.showActivityIndicator(        )
     }
 
     func hideVisitableActivityIndicator() {

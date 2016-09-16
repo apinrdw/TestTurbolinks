@@ -1,7 +1,7 @@
 import Foundation
 
-public enum Action: String {
-    case Advance = "advance"
-    case Replace = "replace"
-    case Restore = "restore"
+@objc public enum Action: Int {
+    case Advance = 1// = "advance"
+    case Replace = 2// = "replace"
+    case Restore = 3// = "restore"
 }
